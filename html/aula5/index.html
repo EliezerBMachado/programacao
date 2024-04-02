@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+</head>
+<body>
+    <h1>Semântica</h1>
+    <p>HTML5 chegou com o conceito de valorizar a semântica, logo suas tags tentam
+        levar um significado embutido muito forte.</p>
+        <p>Juvenal era um sujeito de muita sorte. E já
+            começou de pequeno onde morou na <br>
+        <address>Rua
+            Marquês de Lira Filho</address></p> 
+            <p>um local de
+                fácil acesso ao Centro da cidade.</p>
+                <p>A seântica dará ao navegador a informação de que aquilo é um endereço e que pode ser procurado no mapa. A tag &lt;address&gt; dá o significado semântico.</p>
+                <h2>Negrito e Itálico</h2>
+                <strong>Texto Em Negrito</strong>
+            <p>A tag &lt;strong&gt; significa que o termo delimitado possui força dentro da frase. Logo,ele aparecerá em negrito.</p>
+            <p>Já a tag &lt;em&gt; significa que queremos dar ênfase (do Inglês emphasis) ao termo.
+                Logo, ele aparecerá em itálico.</p>
+                <em>Texto Em Itálico</em> <br>
+                <h2>Marca texto</h2>
+<p>Para marcar um texto usamos a tag &lt;mark&gt;.</p>
+<mark>Este é um texto marcado</mark>
+
+<h2>Para deixar o texto menor usamos a tag &lt;small&gt;</h2>
+<p>Texto normal e <small>Texto menor</small></p>
+
+<h2>Texto para ser desconsiderado pelo leitor</h2>
+<p>Usamos a tag &lt;del&gt;</p>
+<del>Texto desconsiderado.</del>
+
+<h2>Texto inserido</h2>
+<p>O texto inserido é o exato oposto do texto deletado que vimos anteriormente. Nesse
+    caso, se colocarmos um texto qualquer dentro de &lt;ins&gt; e &lt;/ins&gt;, estamos dizendo
+    que o texto está ali, deve ser lido e você deve prestar atenção nele.</p>
+    <ins>Texto inserido</ins>
+
+    <h2>Textos sobrescrito e subscrito</h2>
+    <p>usamos as tags as tags &lt;sub&gt; e &lt;sup&gt;</p>
+    <p>Texto sobrescrito X<sub>2</sub> <br> <br>
+        
+        Texto subscrito X <sup>2</sup> </p>
+
+        <h2>Trechos de código</h2>
+        <p>Podemos usar a tag &lt;pre&gt;
+            &lt;code&gt; &lt;/code&gt; &lt;/pre&gt;
+        </p>
+        <pre>
+            <code>
+                nun=int(imput(´Digite um número´))
+                if num % 2 == 0:
+                    print(f´o número{num} é par´)
+                else:
+                    print (f´o número {num} é ímpar´)
+                print (´FIM DO PROGRAMA´)
+            </code>
+        </pre>
+
+    <h2>“Citações”</h2>
+    <p>Normalmente, uma citação aparece entre aspas ou com as
+        margens deslocadas em relação ao texto.</p>
+        <p>Para criar uma citação em HTML, podemos usar a tag &lt;q&gt; &lt;/q&gt;</p>
+        <q>Texto citado</q> 
+        <p>ambém podemos criar citações mais longas (em bloco) e que tenham um parágrafo
+            só para si. Nesse caso, colocaremos tudo dentro de &lt;blockquote&gt; e  o texto ganha um recuo automaticamente. 
+            <br>Podemos também colocar um link para o
+            texto original, usando o parâmetro cite dentro da tag.</p>  
+            <h3>Texto com blockquote</h3>
+            <p><blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur rem porro, facilis error aliquid quibusdam expedita asperiores rerum eius saepe! Blanditiis cupiditate molestias accusantium perferendis aliquam incidunt minima suscipit ipsam.</blockquote></p>
+
+            <h3>Link com blockquote</h3>
+            <blockquote cite="https://www.kitsdeensaio.com/">Site de produção de kits de ensaio para grupos e corais.</blockquote>
+<h2>Abreviações</h2>
+<p>Essa é uma novidade da HTML5 e que ajuda muito em áreas como a de Tecnologia,
+    que usa muitas siglas e abreviações. Sempre que você quiser escrever uma sigla, mas
+    deixar claro ao usuário (e aos mecanismos de busca) o significado dela, use a tag
+    &lt;abbr&gt;.</p>
+    <p>Eu estudando <abbr title="hyper Text Markup language"> HTML5 </abbr> Para criar sites.</p>
+
+    <h2>Texto Invertido</h2>
+    <p>Usamos a tag &lt;bdo&gt;</p>
+    <bdo dir="rtl">Testo invertido pra esquerda</bdo> <br>
+    <bdo dir="ltr">Texto a direita </bdo>
+            
+</body>
+</html>
